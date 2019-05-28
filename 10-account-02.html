@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/columnas.css">
+    <link rel="stylesheet" href="assets/css/formato.css">
+
+    <title>Wanwan</title>
+</head>
+
+<body>
+    <!-- top-bar -->
+    <header class="top-bar-tabs ">
+        <div class="top-bar-col1 ">
+            <a href="08-messages-01.html">
+                <img class="svg" src="assets/images/icons/24px/message.svg">
+            </a>
+        </div>
+
+        <div class="top-bar-logo ">
+            <a class="" href="07-matchsearch-01.html">
+                <img class="svg " src="assets/images/logo-icon.svg">
+            </a>
+
+        </div>
+
+        <div class="top-bar-col2 svg-yellow">
+            <a href="10-account-01.html">
+                <img class="svg" src="assets/images/icons/24px/account.svg">
+            </a>
+
+        </div>
+    </header>
+    <!-- end top-bar-->
+
+    <!--tabs-->
+    <div class="tabs">
+        <div>
+            <a href="10-account-01.html">Mi Cuenta</a>
+        </div>
+        <div class="tab-activa">
+            <a href="#">Mis Parámetros</a>
+        </div>
+        <div>
+            <a href="10-account-03.html">Mi Perfil</a>
+        </div>
+    </div>
+    <!-- end tabs-->
+
+    <main class="mi-cuenta ">
+        <div class="acordeon container-wrap" >
+            <a href="#nogo" class="acordeon-btn ">
+                Filtro inicial
+            </a>
+            <div class=" acordeon-content col-10 ">
+
+                <form>
+                    <span>Qué busco?</span>
+                    <div>
+                        <input type="radio" name="busco" value="humano"> Humano<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="busco" value="mascota"> Mascota<br>
+                    </div>
+
+                    <div class="center">
+                        <button class="validate-btn " type="button">Guardar cambios</button>
+                    </div>
+
+                </form>
+
+            </div>
+            <a href="#nogo" class="acordeon-btn ">
+                Lo que busco
+            </a>
+            <div class=" acordeon-content col-10 ">
+                <form>
+                    <span>Especie</span>
+                    <div>
+                        <input type="radio" name="especie" value="gato"> Gato<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="especie" value="perro"> Perro<br>
+                    </div>
+
+                    <span>Género</span>
+                    <div>
+                        <input type="radio" name="genero" value="hembra"> Hembra<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="genero" value="macho"> Macho<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="genero" value="indiferente"> Indiferente<br>
+                    </div>
+
+                    <span>Edad</span>
+                    <div>
+                        <input type="radio" name="edad" value="cachorro"> Cachorro<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="edad" value="adulto"> Adulto<br>
+                    </div>
+
+                    <span>Tamaño</span>
+                    <div>
+                        <input type="radio" name="tamano" value="grande"> Raza grande<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="tamano" value="mediano"> Raza mediana<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="tamano" value="pequeno"> Raza pequeña<br>
+                    </div>
+
+                    <span>Nivel de energía</span>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50">
+                    </div>
+
+                    <span>Acepto necesidades especiales?</span>
+                    <div>
+                        <input type="radio" name="necesidades" value="si"> Sí<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="necesidades" value="no"> No<br>
+                    </div>
+
+                    <span>Distancia de mí</span>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50">
+                    </div>
+
+                    <div class="center">
+                        <button class="validate-btn " type="button">Guardar cambios</button>
+                    </div>
+
+                </form>
+
+            </div>
+            <a href="#nogo" class="acordeon-btn ">
+                Sobre mi
+            </a>
+            <div class=" acordeon-content col-10 ">
+                <form>
+                    <span>Mi vivienda</span>
+                    <div>
+                        <input type="radio" name="vivienda" value="casa"> Casa<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="vivienda" value="piso"> Piso<br>
+                    </div>
+
+                    <span>Tengo otras mascotas?</span>
+                    <div>
+                        <input type="radio" name="otras" value="si"> Sí<br>
+                    </div>
+                    <div>
+                        <input type="radio" name="otras" value="no"> No<br>
+                    </div>
+
+                    <span>Aproximadamente cuántas horas al día estoy en casa?</span>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50">
+                    </div>
+
+                    <div class="center">
+                        <button class="validate-btn " type="button">Guardar cambios</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <!--end container-wrap-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
